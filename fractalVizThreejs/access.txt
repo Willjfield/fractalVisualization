@@ -1,0 +1,5 @@
+{"access_token": "10337700-ROpaaWsc_-RmFJ0goyXUAfLknag", "token_type": "bearer", "expires_in": 3600, "scope": "*"}
+
+{"is_employee": false, "has_mail": false, "name": "will1311", "created": 1320147241.0, "hide_from_robots": true, "is_suspended": false, "created_utc": 1320118441.0, "has_mod_mail": false, "link_karma": 391, "in_beta": false, "comment_karma": 2630, "over_18": true, "is_gold": false, "is_mod": false, "id": "65kmc", "gold_expiration": null, "inbox_count": 0, "has_verified_email": true, "gold_creddits": 0, "suspension_expiration_utc": null}
+
+curl -H "Authorization: bearer 10337700-ROpaaWsc_-RmFJ0goyXUAfLknag" -A "ChangeMeClient/0.1 by will1311" https://oauth.reddit.com/r/politics/comments -O politicComments.txt
